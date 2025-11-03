@@ -39,19 +39,4 @@ jobs:
             git commit -m "Github Action Auto Updated"
             git push --force
           fi
-      - name: Mirror the Github organization repos to Gitee.
-        uses: Yikun/hub-mirror-action@master
-        with:
-          src: 'github/bruceroe'    			
-          dst: 'gitee/bruce_roe'   
-          dst_key: ${{ secrets.GITEE_PRIVATE_KEY }}  
-          dst_token:  ${{ secrets.GITEE_TOKEN }}  
-          force_update: true
-          static_list: "TVlogo"
-          account_type: user
-          debug: true
-          git_clone_extra_options: "--depth=1"   # 浅克隆可能会只克隆最近的一次提交
-          timeout: '3600'      # 超时1小时
-          max_retries: 3       # 重试3数
-          retry_wait: 1000     # 重试等待1000ms
 
