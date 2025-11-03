@@ -4,5 +4,5 @@ https://raw.githubusercontent.com/ldm0206/iptv-api/master/logo
 https://raw.githubusercontent.com/mytv-android/China-TV-HD-Logo/main/icon/
 https://raw.githubusercontent.com/wanglindl/TVlogo/refs/heads/main/img
 https://epg.v1.mk/logo
-https://assets.livednow.com/logo
 https://epg.iill.top/logo/
+https://gitee.com/bruce_roe/mytv/raw/master/tb/
